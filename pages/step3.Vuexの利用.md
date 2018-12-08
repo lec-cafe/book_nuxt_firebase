@@ -88,7 +88,7 @@ actions を呼び出すための dispatch 関数は以下のようにして利�
 ```js
 export default {
   //...    
-  computed: {
+  methods: {
     login () {
         this.$store.dispatch("loginWithUserName", this.name)
     },
