@@ -162,7 +162,7 @@ export default {
     },
     computed: {
         formLength(){
-            return form.text.length
+            return this.form.text.length
         }
     }
 }
@@ -199,10 +199,10 @@ export default {
     },
     computed: {
         formLength(){
-            return form.text.length
+            return this.form.text.length
         }
     },
-    method: {
+    methods: {
         submit() {
             console.log(this.form.text)
         }
@@ -232,7 +232,7 @@ export default {
             showAlert: true
         }
     },
-    method: {
+    methods: {
         close() {
             this.showAlert = false
         }
