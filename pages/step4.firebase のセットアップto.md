@@ -36,6 +36,8 @@ https://github.com/settings/developers
 アプリケーションを作成すると clientID や Client Secret が取得可能なため、
 これをFirebaseの画面に戻って入力しましょう。
 
+![](./step4/github_auth.png)
+
 これで認証用のセットアップは完了です。
 
 ## Nuxt.js における Firebase 環境のセットアップ
@@ -50,6 +52,8 @@ $ npm i firebase
 アプリケーションを識別する必要があります。
 
 Firebase の接続情報は、 Firebase の Project Overview から 「アプリを追加」で Webのアイコンをクリックすると閲覧できます。
+
+![](./step4/firebase_credentials.png)
 
 これらの認証情報を利用するために Nuxt.js のフォルダに `service` フォルダを作成し、
 `service/firebase.js` を以下のかたちで作成してみましょう。

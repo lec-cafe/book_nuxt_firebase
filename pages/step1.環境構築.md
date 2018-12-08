@@ -53,6 +53,7 @@ Initialized empty Git repository in /Users/mkkn/mine/kaigi/.git/
 ファイルの構成が確認できたら `npm run dev` で開発用のサーバを立ち上げましょう。
 
 ```
+$ cd firebase-chat-app
 $ npm run dev
 ```
 
