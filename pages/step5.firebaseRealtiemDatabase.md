@@ -21,7 +21,7 @@ Realtime Database の内容を自動的に vuex に連携する手法を紹介�
 `vuexfire` を利用するには、まずモジュールのインストールを行います。
 
 ```
-$ npmm i vuexfire
+$ npm i vuexfire
 ```
 
 `vuexfire`を利用する場合、 mutations に vuexfire の処理を登録します。
